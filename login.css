@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root ::before {
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+}
+.navbar{
+display: flex;
+align-items: center;
+justify-content: space-between;
+   padding: 20px 40px;
+}
+.navbar h1{
+    font-size: 3rem;
+}
+.navbar .rightNavbar button{
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    background-color:rgb(50, 50, 237);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.categoryBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    background-color: rgb(246, 152, 65);
+    color: black;
+}
+.categoryBar div a{
+    margin-right: 40px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+}
+.newArrivals{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    padding: 20px 40px;
+}
+.newArrivals>div{
+    border-radius: 20px;
+    padding: 40px;
+}
+.arrivalsLeft{
+    width: 65%;
+    height: 60vh;
+    background-color:rgb(207, 220, 70);
+}
+.arrivalsRight{
+    width: 35%;
+    height: 60vh;
+    background-color: rgb(105, 237, 247);
+}
+.arrivalsLeft h2{
+    color: white;
+    font-size: 3.5rem;
+}
+.arrivalsLeft p{
+    color: white;
+    font-size: 1.5rem;
+}
+.arrivalsRight div{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: rgb(83, 163, 243);
+    color:white;
+    font-size: 1.5rem;
+}
